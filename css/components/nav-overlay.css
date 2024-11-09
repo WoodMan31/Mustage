@@ -1,0 +1,50 @@
+.nav-overlay {
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    padding: 111px 0 50px 130px;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #000;
+
+    color: white;
+    z-index: 10;
+}
+
+.nav-overlay.active {
+    display: flex;
+}
+
+.nav-overlay a {
+    color: #fff;
+    text-decoration: none;
+
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+.nav-overlay ul {
+    display: flex;
+    flex-direction: column;
+
+    list-style: none;
+    text-align: start;
+}
+
+.nav-overlay ul li {
+    margin: 20px 0;
+}
+
+.nav-overlay ul li:nth-child(6) {
+    width: 50px;
+}

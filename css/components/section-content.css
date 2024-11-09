@@ -1,0 +1,44 @@
+.section-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+
+    padding: 100px 160px 200px;
+    gap: 20px;
+
+    background-color: #000;
+}
+
+.section-content .button-start-design:nth-child(7) {
+    margin: 30px 0 0 0;
+}
+
+@media (max-width: 1600px) {
+   .section-content {
+        gap: 15px;
+        padding: 100px 120px 200px
+   }
+}
+
+@media (max-width: 1200px) {
+    .section-content {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-content {
+        gap: 50px;
+        padding: 100px 89px 200px
+    }
+}
+  
+@media (max-width: 480px) {
+    .section-content {
+        gap: 30px;
+        padding: 100px 20px 200px
+    }
+}

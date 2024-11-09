@@ -1,0 +1,21 @@
+@import "body.css";
+@import "font-size.css";
+
+@import "section-hero.css";
+@import "header.css";
+@import "nav.css";
+@import "language-switch.css";
+@import "button-contact.css";
+@import "hero-content.css";
+@import "button-start.css";
+@import "features-list.css";
+
+@import "section-incentive.css";
+
+@import "section-content.css";
+@import "card.css";
+@import "circle.css";
+
+@import "burger.css";
+@import "nav-overlay.css";
+@import "backround-hero.css";

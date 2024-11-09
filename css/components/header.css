@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+header h2 {
+    margin: 0 409px 0 0;
+
+    cursor: pointer;
+}
+
+
+@media (max-width: 1600px) {
+    header h2 {
+        margin: 0 100px 0 0; 
+    }
+}
+
+@media (max-width: 1200px) {
+    header h2 {
+        margin: 0 90px 0 0; 
+    }
+}
+
+@media (max-width: 768px) {
+    header h2 {
+        margin: 0 160px 0 0; 
+    }
+}
+  
+@media (max-width: 480px) {
+    header h2 {
+        margin: 0 27px 0 0; 
+    }
+}

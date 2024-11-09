@@ -1,0 +1,35 @@
+.burger {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 9px;
+
+    cursor: pointer;
+}
+
+.burger hr {
+    width: 51px;
+    height: 6px;
+
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .burger{
+        display: flex;
+
+        margin: 0 0 0 80px;
+    }
+}
+  
+@media (max-width: 480px) {
+    .burger{
+        display: flex;
+
+        margin: 0 0 0 30px;
+    }
+}

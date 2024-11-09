@@ -1,0 +1,23 @@
+.button-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 204px;
+    height: 54px;
+
+    font-size: 20px;
+
+    border-radius: 10px;
+    border: 0px;
+
+    background-color: #fff;
+
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .button-contact{
+        border-radius: 50px;
+    }
+}
