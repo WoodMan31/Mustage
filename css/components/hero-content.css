@@ -32,4 +32,9 @@
     .hero-content {
         height: 244px;
     }
+
+    .hero-content p {
+        width: 447px;
+        height: 104px;
+    }
 }
