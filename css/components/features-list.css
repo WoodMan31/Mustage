@@ -53,7 +53,7 @@
 
 @media (max-width: 1200px) {
     .features-list {
-        width: 1200px;
+        width: 1100px;
     }
 
     .features-list hr:nth-child(n) {
